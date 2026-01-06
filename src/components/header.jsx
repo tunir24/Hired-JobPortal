@@ -82,9 +82,10 @@ const Header = () => {
   >
     <div onClick={(e) => e.stopPropagation()}>
       <SignIn
-        signUpForceRedirectUrl="/onboarding"
-        fallbackRedirectUrl="/onboarding"
-      />
+  afterSignInUrl="/"
+  signUpForceRedirectUrl="/onboarding"
+  fallbackRedirectUrl="/"
+/>
     </div>
   </div>
 )}
